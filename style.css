@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+body{
+    background-color: lemonchiffon;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/*
+.container, .navbar, .courses, .banner, .footer{
+    float: left;
+}
+*/
+/*MENU BAR*/
+.nav-bar {
+    margin-top: 10px;
+    width: 100%;
+    clear: both;
+/*
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+*/
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    margin-right: 3px;
+
+}
+
+ul li:last-child {
+    margin-right: auto;
+}
+
+ul li a {
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    font-size: 20px;
+
+}
+
+ul li a:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+.selected, .selected li a{
+    background-color: royalblue;
+    color: white;
+}
+
+.brand {
+    float: left;
+}
+
+.menu {
+    float: right;
+
+}
+
+/*MENU BAR*/
+
+/*BANNER*/
+.banner img {
+    width: 100%;
+    margin-top: -4px;
+    height: 300px;
+    float: left;
+}
+
+/*BANNER*/
+
+/*COURSES*/
+.courses {
+    height: 500px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+ h1, h2 {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.course {
+    float: left;
+
+}
+
+.course-margin {
+    margin: 0 40px 0 40px;
+}
+
+.course-img img {
+    width: 378px;
+    height: 200px
+}
+
+.course-img img:hover {
+
+    opacity: .5;
+}
+
+.course-detail {
+    width: 378px;
+    text-align: justify;
+    outline-color: red;
+    background-color: aqua;
+    float: left;
+    height: 220px;
+}
+
+.course p {
+    margin: 0 20px 20px 20px;
+}
+
+.course .btn {
+    margin: auto;
+    display: block;
+    padding: 12px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    text-align: center;
+}
+
+.course .btn:hover {
+    color: white;
+    background-color: #4CAF50;
+}
+
+/*COURSES*/
+
+
+/*ABOUT US*/
+.about-us{
+    float: left;
+    
+}
+.about-us p{
+    font-size: 30px;
+    line-height: 35px;
+    text-align: justify;
+     margin: 0 0px 50px 0px;
+}
+/*ABOUT US*/
+
+
+/*TRAINERS*/
+.headline{
+    height: 180px;
+    width: 100%;
+    float: left;
+   
+}
+.trainer{
+    width: 21.67%;
+    float: left;
+    border: 2px solid grey;
+    margin-bottom: 100px;
+}
+
+.trainer-1{
+    margin-right: 4%;
+}
+.trainer p{
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+.trainer img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid yellow;
+    margin: -75px 0 5px 54px;
+}
+/*TRAINERS*/
+
+/*CONTACT FORM*/
+.contact-form{
+    height: 200px;
+    width: 60%;
+    float: left;
+    border: 2px solide red;
+    margin: 0 auto;
+    padding: 16px 32px;
+}
+.form{
+    padding: 10px 20px;
+    width: 100%;
+}
+
+
+/*CONTACT FORM*/
+
+/*FOOTER*/
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: #C70039;
+    float: left;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 30px
+}
+
+.footer a {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/*FOOTER*/
